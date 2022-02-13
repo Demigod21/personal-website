@@ -3,6 +3,8 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import { Link } from 'react-scroll';
+
 
 const Hero = () => (
   <Section row nopadding>
@@ -12,11 +14,13 @@ const Hero = () => (
           Portfolio
       </SectionTitle>
       <SectionText>
-      Java Developer at ExtraRed. <br/>Passionate about learning new technologies, 
-      developed and published 3 mobile applications, both iOS and Android. 
+      Java Developer at ExtraRed. <br/>Passionate about learning new technologies. <br/>
+      Developed and published 3 mobile applications, both iOS and Android. 
       </SectionText>
-      <Button onClick={()=>window.location = 'google.com'}>
-        My Projects
+      <Button>
+      <Link to="footer" smooth={true} offset={80}>
+        Contact me
+        </Link>
       </Button>
     </LeftSection>
   </Section>

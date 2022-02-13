@@ -4,6 +4,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiTerminal } from 'react-icons/di';
 import { Link } from 'react-scroll';
 
+
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () =>  (
@@ -15,7 +16,7 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link to="projects" smooth={true}>
+        <Link to="projects" smooth={true} offset={-80}>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
@@ -25,9 +26,14 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link to="about" smooth={true}>
+        <Link to="about" smooth={true} offset={-80}>
           <NavLink>About me</NavLink>
         </Link>
+      </li>
+      <li>
+      <a href="docs/cv.pdf">
+            <NavLink>CV</NavLink>
+            </a>
       </li>
     </Div2>
     <Div3>

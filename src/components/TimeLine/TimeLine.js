@@ -60,7 +60,7 @@ const Timeline = () => {
                 id={`carousel__item-${index}`}
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}>
-                <CarouselItemTitle>
+                <CarouselItemText>
                   {`${item.year}`}
                   <CarouselItemImg
                     width="208"
@@ -92,7 +92,7 @@ const Timeline = () => {
                       </linearGradient>
                     </defs>
                   </CarouselItemImg>
-                </CarouselItemTitle>
+                </CarouselItemText>
                 <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>

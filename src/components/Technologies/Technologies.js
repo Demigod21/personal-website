@@ -8,7 +8,7 @@ const Technologies = () =>  (
   <SectionDivider divider />
   <SectionTitle>Technologies</SectionTitle>
   <SectionText>
-    I've worked with a range a technologies during my carreer, from Backend, to Mobile, passing through CI/CD
+    I've worked with a range of technologies during my carreer, from Backend, to Mobile, passing through CI/CD.
   </SectionText>
   <List>
     <ListItem>
@@ -19,7 +19,7 @@ const Technologies = () =>  (
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
           Experience with <br />
-          Java, Kotlin, C#
+          Java, Kotlin, C#, Maven, Junit, SpringBoot, OpenLegacy
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -43,7 +43,7 @@ const Technologies = () =>  (
         <ListTitle>Others</ListTitle>
         <ListParagraph>
           Experience with <br />
-          AWS, Firebase, PostgreSQL
+          AWS, Firebase, PostgreSQL, Git
         </ListParagraph>
       </ListContainer>
     </ListItem>
