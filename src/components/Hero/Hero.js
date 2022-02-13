@@ -13,9 +13,7 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
       Java Developer at ExtraRed. <br/>Passionate about learning new technologies, 
-      developed and published 3 mobile applications, both iOS and Android. <br/>Not a typical developer, 
-      I love and have been practicing Mixed Martial Arts for 4 years, which can be seen as high level problem 
-      solving with dire physical consequences. <br/>Also a geek who loves 3D printing.
+      developed and published 3 mobile applications, both iOS and Android. 
       </SectionText>
       <Button onClick={()=>window.location = 'google.com'}>
         My Projects
