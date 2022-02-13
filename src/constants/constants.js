@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'Barber Lab',
+    description: "Android and iOS Application. Custom app made in Flutter for a barber shop and its clients to manage appoint- ments.Published on the Google Play Store and iOS app store on December 2021",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+      tags: ['Flutter', 'Dart', 'FireBase', 'Node'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
@@ -40,7 +40,7 @@ export const projects = [
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey', },
   { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Published my first Android app', },
+  { year: 2020, text: 'Publieshed my second Android app', },
+  { year: 2021, text: 'Published my first iOS app', },
 ];
