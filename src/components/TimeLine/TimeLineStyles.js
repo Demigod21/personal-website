@@ -65,27 +65,26 @@ export const CarouselItem = styled.div`
 `
 
 export const CarouselItemTitle = styled.h4`
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: 0.02em;
-  display: flex;
-  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 8px;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.02em;
+display: flex;
+/* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
+background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 8px;
+@media ${props => props.theme.breakpoints.md} {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
 
-  @media ${props => props.theme.breakpoints.md} {
-    font-size: 20px;
-    line-height: 28px;
-    margin-bottom: 4px;
-  }
-  
-  @media ${props => props.theme.breakpoints.sm} {
-    font-size: 16px;
-    line-height: 24px;
-  }
+@media ${props => props.theme.breakpoints.sm} {
+  font-size: 16px;
+  line-height: 24px;
+}
 `
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;

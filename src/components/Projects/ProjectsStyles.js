@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width:400px;
+  height:300px;
   object-fit: cover;
   overflow: hidden;
 `
@@ -68,6 +68,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
+  height: 150px;
   padding: 0 50px;
   color: #e4e6e7;
   font-style: 2rem;
@@ -92,12 +93,12 @@ export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
 border-radius: 15px;
 transition: 0.5s;
+opacity : 0.85;
 &:hover{
-  background: #801414;
-
+  opacity: 1;
 }
 `;
 
