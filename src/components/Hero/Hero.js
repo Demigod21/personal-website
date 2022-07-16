@@ -14,7 +14,7 @@ const Hero = () => (
           Portfolio
       </SectionTitle>
       <SectionText>
-      Java Developer at ExtraRed. <br/>Passionate about learning new technologies. <br/>
+      Scala Software Engineer at Moneyfarm. <br/>Passionate about learning new technologies. <br/>
       Developed and published 3 mobile applications, both iOS and Android. 
       </SectionText>
       <Button>
