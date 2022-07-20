@@ -19,7 +19,7 @@ const Technologies = () =>  (
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
           Experience with <br />
-          Java, Kotlin, C#, Maven, Junit, SpringBoot, OpenLegacy
+          Scala, Java, Kotlin, C#, Maven, Junit, SpringBoot, OpenLegacy
         </ListParagraph>
       </ListContainer>
     </ListItem>
